@@ -7,3 +7,4 @@ function n(min, max) {
 }
 let val = n(1111, 9999);
 link = "https://prnt.sc/" + randomCharacter2 + randomCharacter + val
+link1 = "https://github.com/maciekkoks"
