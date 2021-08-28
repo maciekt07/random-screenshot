@@ -1,0 +1,31 @@
+body {
+    background-color: #b280e0;
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 36px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    animation-delay: 5s;
+    cursor: pointer;
+    }
+    button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #cff4fc;
+    color: #63b1ff;
+    cursor: pointer;
+    }
+    button:active {
+    background-color: #cff4fc;
+    font-size: 35.5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.1s;
+    animation-delay: 1s;
+    cursor: pointer;
+    }
