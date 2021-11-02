@@ -1,6 +1,6 @@
 # [random-prnt.sc-generator/](https://maciekkoks.github.io/Random-Screenshot/)
 idk made in 10 minutes, carefully 😳
-![preview](https://raw.githubusercontent.com/maciekkoks/random-prnt.sc-generator/main/img/preview.png)
+![preview](https://raw.githubusercontent.com/maciekkoks/Random-Screenshot/main/img/preview1.png)
 ```js
 github = "https://github.com/maciekkoks"
 //prntsc
