@@ -24,3 +24,10 @@ function imgur() {
     imlink = 'https://i.imgur.com/' + text + '.jpg';
     console.log(imlink);
 }
+
+//Google Analytics
+ window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0F7R5NPTR');
