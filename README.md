@@ -1,4 +1,4 @@
-# [random-prnt.sc-generator/](https://maciekkoks.github.io/Random-Screenshot/)
+# [Random-Screenshot/](https://maciekkoks.github.io/Random-Screenshot/)
 idk made in 10 minutes, carefully 😳
 ![preview](https://raw.githubusercontent.com/maciekkoks/Random-Screenshot/main/img/preview1.png)
 ```js
