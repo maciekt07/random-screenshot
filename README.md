@@ -3,6 +3,10 @@ idk made in 10 minutes, carefully 😳
 ![preview](https://raw.githubusercontent.com/maciekkoks/Random-Screenshot/main/img/preview1.png)
 ```js
 github = "https://github.com/maciekkoks"
+function select() {
+    var e = document.getElementById("signs");
+    var strUser = e.value;
+}
 //prntsc
 function prntsc() {
     const alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -18,8 +22,10 @@ function prntsc() {
 }
 //imgur
 function imgur() {
+    var e = document.getElementById("signs");
+    var strUser = e.value;
     const chars = '01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
-    var stringlength = 5; /* could be 6 or 7 */
+    var stringlength = strUser; /* could be 5, 6 or 7 */
     var text = '';
     for (var i = 0; i < stringlength; i++) {
         var rnum = Math.floor(Math.random() * chars.length);
