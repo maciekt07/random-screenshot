@@ -6,8 +6,8 @@ function select() {
 //prntsc
 function prntsc() {
     const alphabet = "abcdefghijklmnopqrstuvwxyz"
-    const randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
-    const randomCharacter2 = alphabet[Math.floor(Math.random() * alphabet.length)]
+    var randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
+    var randomCharacter2 = alphabet[Math.floor(Math.random() * alphabet.length)]
 
     function n(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
