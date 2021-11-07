@@ -1,4 +1,4 @@
-# [random-screenshot](https://maciekkoks.github.io/Random-Screenshot/)
+# [random-screenshot](https://maciekkoks.github.io/random-screenshot/)
 idk made in 10 minutes, carefully 😳
 ![preview](https://raw.githubusercontent.com/maciekkoks/Random-Screenshot/main/img/preview1.png)
 ```js
