@@ -1,8 +1,10 @@
 github = "https://github.com/maciekkoks"
+
 function select() {
     var e = document.getElementById("signs");
     var strUser = e.value;
 }
+
 //prntsc
 function prntsc() {
     const alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -16,6 +18,7 @@ function prntsc() {
     link = "https://prnt.sc/" + randomCharacter2 + randomCharacter + val
     console.log(link);
 }
+
 //imgur
 function imgur() {
     var e = document.getElementById("signs");
