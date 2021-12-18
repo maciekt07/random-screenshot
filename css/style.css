@@ -1,31 +1,33 @@
-.div1 {
-    text-align: center;
-    background-color: white;
-    font-size: 45px;
-    width: 540px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-img {
-    width: 60px;
-    height: 60px;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&family=Work+Sans:wght@500&display=swap');
 body {
-    background: rgb(209, 174, 238);
-    background: linear-gradient(90deg, rgba(209, 174, 238, 1) 0%, rgba(148, 173, 233, 1) 100%);
+    background: rgb(120,151,223);
+    background: linear-gradient(90deg, rgba(120,151,223,1) 0%, rgba(220,159,224,1) 100%);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    /*  disable text selection   */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.div1 {
+    text-align: center;
+    background-color: white;
+    font-size: 45px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+    width: 60px;
+    height: 60px;
 }
 
 button {
@@ -53,14 +55,6 @@ button:hover {
     cursor: pointer;
 }
 
-button:active {
-    background-color: #cff4fc;
-    font-size: 35.5px;
-    transition-duration: 0.1s;
-    animation-delay: 1s;
-    cursor: pointer;
-}
-
 .body1,
 .flex-center {
     display: flex;
@@ -80,7 +74,7 @@ button:active {
     height: 50px;
     width: 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     border-radius: 10px;
     background: white;
@@ -126,4 +120,24 @@ button:active {
     font-size: 32px;
     color: white;
     text-align: center;
+}
+footer {
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+.madeby {
+    font-size: 20px;
+}
+a, a:visited {
+    color: #7656e8;
+    transition-duration: 0.4s;
+}
+a:hover {
+    color: #5d88de;
 }
