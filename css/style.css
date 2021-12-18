@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&family=Work+Sans:wght@500&display=swap');
 body {
+    font-family: 'Poppins', sans-serif;
     background: rgb(120,151,223);
     background: linear-gradient(90deg, rgba(120,151,223,1) 0%, rgba(220,159,224,1) 100%);
-    font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -17,8 +13,8 @@ body {
 .div1 {
     text-align: center;
     background-color: white;
-    font-size: 45px;
-    width: 600px;
+    font-size: 40px;
+    width: 535px;
     display: block;
     margin-left: auto;
     margin-right: auto;
