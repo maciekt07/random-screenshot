@@ -7,15 +7,14 @@ function select() {
 
 //prntsc
 function prntsc() {
-    const alphabet = "abcdefghijklmnopqrstuvwxyz"
-    var randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
-    var randomCharacter2 = alphabet[Math.floor(Math.random() * alphabet.length)]
-
-    function n(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
+    const chars = "abcdefghijklmnopqrstuvwxyz1234567890"
+    var stringlength = 6;
+    var text = '';
+    for (var i = 0; i < stringlength; i++) {
+        var rnum = Math.floor(Math.random() * chars.length);
+        text += chars.substring(rnum, rnum + 1);
     }
-    let val = n(1000, 9999);
-    link = "https://prnt.sc/" + randomCharacter2 + randomCharacter + val
+    link = "https://prnt.sc/" + text;
     console.log(link);
 }
 
