@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&family=Work+Sans:wght@500&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgb(120,151,223);
-    background: linear-gradient(90deg, rgba(120,151,223,1) 0%, rgba(220,159,224,1) 100%);
+    background: rgb(120, 151, 223);
+    background: linear-gradient(90deg, rgba(120, 151, 223, 1) 0%, rgba(220, 159, 224, 1) 100%);
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -10,6 +11,7 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
 .div1 {
     text-align: center;
     background-color: white;
@@ -21,6 +23,15 @@ body {
     border-radius: 40px;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media (max-width: 560px) {
+    .div1 {
+        font-size: 31px;
+        width: 440px;
+
+    }
+}
+
 img {
     width: 60px;
     height: 60px;
@@ -117,6 +128,7 @@ button:hover {
     color: white;
     text-align: center;
 }
+
 footer {
     padding: 5px;
     background-color: white;
@@ -127,13 +139,17 @@ footer {
     border-radius: 20px 20px 0 0;
     text-align: center;
 }
+
 .madeby {
     font-size: 20px;
 }
-a, a:visited {
+
+a,
+a:visited {
     color: #7656e8;
     transition-duration: 0.4s;
 }
+
 a:hover {
     color: #5d88de;
 }
